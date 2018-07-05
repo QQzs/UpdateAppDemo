@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 if (aBoolean){
                     UpdateBean updateBean = new UpdateBean();
                     updateBean.setDownloadurl(mUrl);
-                    updateBean.setMustbe(true);
+                    updateBean.setMustbe(false);
                     updateBean.setVersion("2.0.0");
                     updateBean.setReleasenote("更新吧~");
                     UpdateUtil.getInstance().showUpdateDialog(MainActivity.this,updateBean);
