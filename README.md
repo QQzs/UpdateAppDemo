@@ -241,7 +241,7 @@ Android6.0引入动态权限控制(Runtime Permissions)，Android7.0引入私有
 <paths >
     <external-path
         name="files_root"
-        path="Android/data/com.rms.hospital/" />
+        path="Android/data/com..zs.demo/" />
     <external-path
         name="external_storage_root"
         path="." />
